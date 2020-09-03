@@ -20,8 +20,8 @@ import random
 import time
 
 
-a = random.randint(1, 10)
-b = random.randint(1, 10)
+a = random.randint(1, 20)
+b = random.randint(1, 20)
 print('Hi Evelyn, please wait for the computer to give you the question in 2 seconds')
 time.sleep(1)
 for i in range(2, 0, -1):
