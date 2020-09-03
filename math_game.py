@@ -1,4 +1,11 @@
 #! python3
+
+import sys
+if sys.version_info < (3, 0):
+    sys.stdout.write("Sorry, Evelyn, this program requires Python 3.x," 
+    "please ask Daddy to help you\n")
+    sys.exit(1)
+
 '''
 This is a python mini game for kid to do:
 Addition 
