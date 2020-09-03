@@ -15,7 +15,7 @@ import time
 
 a = random.randint(1, 10)
 b = random.randint(1, 10)
-print('Hi Evelyn, please wait for the computer to give you the question in 1 seconds')
+print('Hi Evelyn, please wait for the computer to give you the question in 2 seconds')
 time.sleep(1)
 for i in range(2, 0, -1):
     time.sleep(1)
